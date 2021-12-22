@@ -39,7 +39,7 @@ namespace PowerStorageMod
 				},
 				new GadgetDefinition.CraftCost
 				{
-					id = Identifiable.Id.VALLEY_AMMO_1,
+					id = Identifiable.Id.QUICKSILVER_SLIME,
 					amount = 1
 				}
 			};
@@ -47,6 +47,7 @@ namespace PowerStorageMod
             PowerStorageIds.ENERGY_GENERATOR.GetTranslation().SetNameTranslation("Energy Generator").SetDescriptionTranslation("An engine that generates energy for quicksilver slimes.");
             LookupRegistry.RegisterGadget(prefab);
 			GadgetRegistry.ClassifyGadget(PowerStorageIds.ENERGY_GENERATOR, GadgetRegistry.GadgetClassification.MISC);
+            AmmoRegistry.RegisterRefineryResource(Identifiable.Id.QUICKSILVER_SLIME);
         }
 
         public override void PostLoad()
