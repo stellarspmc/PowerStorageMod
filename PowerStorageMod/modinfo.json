@@ -1,0 +1,10 @@
+{
+  "author": "tcfplayz",
+  "description": "This mod is used to storage power in quicksilver slimes.",
+  "id": "powerstoragemod",
+  "name": "Power Storage Mod",
+  "version": "1.0",
+  "dependencies": [
+    "frostys_quicksilver_rancher 1.0"
+  ]
+}
