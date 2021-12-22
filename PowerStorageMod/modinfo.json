@@ -6,5 +6,8 @@
   "version": "1.0",
   "dependencies": [
     "frostys_quicksilver_rancher 1.0"
+  ],
+  "load_after": [
+    "frostys_quicksilver_rancher"
   ]
 }
