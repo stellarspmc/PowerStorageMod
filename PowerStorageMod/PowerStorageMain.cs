@@ -23,8 +23,8 @@ namespace PowerStorageMod
             GadgetDefinition prefab = ScriptableObject.CreateInstance<GadgetDefinition>();
             prefab.id = PowerStorageIds.ENERGY_GENERATOR;
             prefab.pediaLink = PediaDirector.Id.UTILITIES;
-            prefab.blueprintCost = 1000;
-            prefab.buyCountLimit = 10;
+            prefab.blueprintCost = 30000;
+            prefab.buyCountLimit = -1;
             prefab.icon = icon.icon;
             prefab.craftCosts = new GadgetDefinition.CraftCost[]{
 				new GadgetDefinition.CraftCost
